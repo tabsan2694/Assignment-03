@@ -8,14 +8,14 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Document</title>
+    <title>Rinterio</title>
 </head>
 <body>
-    <header>
-        <nav class="flex items-center space-between">
+    <header class="max-w-7xl mx-auto">
+        <nav class="flex items-center justify-between p-4 bg-white">
             <div class="flex items-center">
                 <div class="rounded-full bg-lime-400">
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square p-2"></i>
 
                 </div>
                 <span class="text-2xl font-bold ml-2">
@@ -23,31 +23,95 @@
                 </span>
             </div>
             <div class="space-x-6 hidden md:flex">
-                <a href="">Home</a>
-                <a href="">Services</a>
-                <a href="">Portfolio</a>
-                <a href="">Blogs</a>
-                <a href="">Contact Us</a>
+                <a href="" class="text-gray-500 hover:text-black">Home</a>
+                <a href="" class="text-gray-500 hover:text-black">Services</a>
+                <a href="" class="text-gray-500 hover:text-black">Portfolio</a>
+                <a href="" class="text-gray-500 hover:text-black">Blogs</a>
+                <a href="" class="text-gray-500 hover:text-black">Contact Us</a>
                 
             </div>
 
-            <div>
+            <div class="hidden md:flex items-center space-x-4">
                 <button class="p-2 bg-gray-200 rounded-full">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
                 <button  class="p-2 bg-gray-200 rounded-full">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </button>
-                <a href="" class="">
+                <a href="" class="bg-lime-400 py-2 px-4 rounded-full flex items-center">
                     <span>Book Consult</span>
-                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <i class="fa-solid fa-arrow-up-right-from-square ml-2"></i>
 
                 </a>
+            </div>
+            <div class="md:hidden">
+                <i class="fa-solid fa-bars"></i>
             </div>
         </nav>
 
     </header>
-    <main></main>
+    <main>
+        <section class="flex flex-col items-center text-center max-w-7xl mx-auto mb-12">
+            <img src="images/banner.png" alt="">
+
+            <h1 class="text-4xl font-extrabold mb-4 ">
+                A barn house of this design has a <br> striking appearance
+            </h1>
+
+            <p class="text-gray-500 mb-8 max-w-lg">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+            </p>
+
+            <a href="" class="bg-lime-200 text-black py-3 px-6 rounded-full flex items-center">
+                <span class="font-semibold">View Details</span>
+                <i class="fa-solid fa-arrow-up-right-from-square bg-lime-500 p-2 rounded-full ml-2"></i>
+
+            </a>
+        </section>
+        <section class="bg-[#F4F4F4] p-12">
+            <div class="flex flex-col md:flex-row justify-between max-w-7xl mx-auto px-4 py-16 space-y-8 md:space-y-0 md:space-x-0 gap-8 mt-24">
+                <div class="space-y-4">
+                    <a href="" class="rounded-full py-2 px-4 inline-flex items-center text-black bg-white font-semibold">
+                        <i class="fa-solid fa-arrow-right-long mr-2"></i>
+                        <span>About Us</span>
+                    </a>
+    
+                    <h1 class="text-4xl font-extrabold">
+                        We design thoughtful, liveable spaces
+                    </h1>
+    
+                    <p class="text-gray-500 ">
+                        The barn house captivates with its blend of rustic charm and 
+                        modern sophistication, featuring weathered wood, sleek metal accents.
+                    </p>
+                    <div class="space-y-4">
+                        <div class=" flex items-center rounded-lg bg-white space-x-4 shadow-lg p-4">
+                            <i class="fa-regular fa-building"></i>
+                            <div>
+                                <h2 class="text-xl font-bold">Commercial</h2>
+                                <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class=" flex items-center rounded-lg bg-white space-x-4 shadow-lg p-4">
+                            <i class="fa-solid fa-house-chimney"></i>
+                            <div>
+                                <h2 class="text-xl font-bold">Residential</h2>
+                                <p class="text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="w-full ">
+                    <img src="images/Rectangle.png" alt="" class="shadow-lg rounded-lg w-full h-full">
+                </div>
+            </div>
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
